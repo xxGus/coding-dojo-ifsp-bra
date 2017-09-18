@@ -1,0 +1,23 @@
+{
+    "name": "zendframework/skeleton-application",
+    "description": "Skeleton Application for ZF2",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "zf2"
+    ],
+    "config": {
+    	"process-timeout": 15000
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "phpunit/phpunit": "4.8.26"
+    },
+    "autoload": {
+        "psr-4": {
+            "Matematica\\": "src/Matematica/",
+            "BatalhaNaval\\": "src/BatalhaNaval/"
+        }
+    }
+  
+}
